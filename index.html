@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <section class="container">
+        <header>
+        <article id="stats" class="hide" >
+            <p class="d-block">WPM: <span id="wpm-display"></span></p>
+            <p class="d-block">Score: <span id="score-display"></span></p>
+            <p class="d-block">Time left: <span id="time-display"></span></p>
+        </article>
+        <h1 id="main-heading">Spead Typing Game</h1>
+    </header>
+
+    <main>
+        <section id="main-section">
+            <!-- typed words go here -->
+            <article id="main-content"></article>
+
+            <button type="submit" id="button">Start game</button>
+            <a id="btn-highscore" href="./highscore.html"><button>High scores</button></a>
+
+            <article id="text-display" ></article>
+
+            <form id="form">
+                <input class="hide" id="input" type="text" />
+            </form>
+        </section>
+    </main>
+        
+    </section>
+    
+    <script src="all.js"></script>
+</body>
+</html>
